@@ -4,105 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" rel='stylesheet'>
     <title>snapChat</title>
 </head>
 
 <body>
     <!-- ========================= navigation Bar ============================= -->
     <div class="nav_bar">
-        <a class="link-child" href="#">
-            <div> <img src="./assest/snapchat-logo.png"/> </div>
-        </a>
-        <a class="link-child" href="#ads">
-            <div> Ads </div>
-        </a>
-        <a class="link-child" href="#spectacles">
-            <div> Spectacles </div>
-        </a>
-        <a class="link-child" href="#filter_lenses">
-            <div> Filter & Lenses </div>
-        </a>
-        <a class="link-child" href="#download">
-            <div> Download </div>
-        </a>
-        <a class="link-child" href="#store">
-            <div> Store </div>
-        </a>
-        <a class="link-child" href="#stories">
-            <div> Stories </div>
-        </a>
-        <a class="link-child" href="#map">
-            <div> Map </div>
-        </a>
-        <a class="link-child" href="#lens_studio">
-            <div> Lens Studio </div>
-        </a>
-        <a class="link-child" href="#kit">
-            <div> Kit </div>
-        </a>
-        <a class="link-child" href="#snapcodes">
-            <div> Snapcodes </div>
-        </a>
+        <div class="nav_container">
+            <a class="link-child" href="#">
+                <div> <img src="./assest/snapchat-logo.png" /> </div>
+            </a>
+            <a class="link-child" href="#ads">
+                <div> Ads </div>
+            </a>
+            <a class="link-child" href="#spectacles">
+                <div> Spectacles </div>
+            </a>
+            <a class="link-child" href="#filter_lenses">
+                <div> Filter & Lenses </div>
+            </a>
+            <a class="link-child" href="#download">
+                <div> Download </div>
+            </a>
+            <a class="link-child" href="#store">
+                <div> Store </div>
+            </a>
+            <a class="link-child" href="#stories">
+                <div> Stories </div>
+            </a>
+            <a class="link-child" href="#map">
+                <div> Map </div>
+            </a>
+            <a class="link-child" href="#lens_studio">
+                <div> Lens Studio </div>
+            </a>
+            <a class="link-child" href="#kit">
+                <div> Kit </div>
+            </a>
+            <a class="link-child" href="#snapcodes">
+                <div> Snapcodes </div>
+            </a>
+        </div>
     </div>
-    </div>
+
     <!-- ================================= center part =================================== -->
 
-    <section class="emoji_set">
-        <div class="inside_box">
+    <div class="homepage">
+        <div class="homepage_container">
+            <div class="content">
+                Real friends.
+            </div>
+
             <div class="emoji_wrap">
                 <!-- first -->
-                <div class="emoji">
+                <div class="emoji_card">
                     <div class="image">
                         <img src="./assest/bitmoji-left.png" alt="IAGO EMOJI" />
                     </div>
                     <div class="caption_container">
-                        <div></div>
-                        <div>
-                        </div>
+                        <div>IAGO & Lucca</div>
+                        <div>from Sao Paulo, Brazil</div>
                     </div>
                 </div>
                 <!-- second -->
-                <div class="emoji">
+                <div class="emoji_card">
                     <div class="image">
                         <img src="./assest/bitmoji-center.png" alt="DANIEL EMOJI" />
                     </div>
                     <div class="caption_container">
-                        <div></div>
-                        <div>
-                        </div>
+                        <div>DANIEL & Jie Ying</div>
+                        <div>from Kuala Lumpur, Malaysia</div>
                     </div>
                 </div>
 
                 <!-- third -->
-                <div class="emoji">
+                <div class="emoji_card">
                     <div class="image">
                         <img src="./assest/bitmoji-right.png" alt="JOSH EMOJI" />
                     </div>
                     <div class="caption_container">
-                        <div></div>
-                        <div>
-                        </div>
+                        <div>JOSH & REBECCA</div>
+                        <div>from Los Angeles, USA</div>
                     </div>
                 </div>
-
+            </div>
+            <div>
+                <button class="button button1">WATCH NOW</button>
             </div>
         </div>
-
-
-    </section>
+    </div>
 
     <!-- ======================inside box II ============================================================ -->
-    <section class="box_two">
+    <div class="box_two">
         <div class="content-box">
             <div class="box-wrap">
-                <div>
+                <div class="two_child">
                     <ul>
                         <li>Company</li>
                         <li>Snap Inc.</li>
                         <li>Careers</li>
                         <li>News</li>
                     </ul>
+                    <div class="language">
+                       <div>Language</div>
+                       <input type="number" name="Language" placeholder="Engligh (US)" />
+
+                    </div>
                 </div>
                 <div>
                     <ul>
@@ -132,14 +141,11 @@
                         <li>Lens Studio Terms</li>
                     </ul>
                 </div>
-                <div>
-                    <input type="number"   name="Language" placeholder="Engligh (US)" />
-                   
-                </div>
+                
             </div>
-
+            
         </div>
-    </section>
+    </div>
 
     <!-- =============================================footer ============================================= -->
 
@@ -148,7 +154,6 @@
             <div>Privacy Policy</div>
             <div>Terms Of Services</div>
         </div>
-
     </div>
 </body>
 

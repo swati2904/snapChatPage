@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* ========================= navigation Bar ============================= */
+
+.nav_bar{
+    background-color: white;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_bar .nav_container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.nav_bar .link-child img{
+    height: 28px;
+    width: 28px;
+   
+}
+
+/*  ================================= center part ===================================  */
+
+.homepage{
+    height: 92%;
+    width: 100%;
+    background-color: yellow;
+  
+}
+
+.homepage .homepage_container {
+    width: 90%;
+    margin: auto;
+
+}
+.homepage  .homepage_container .content{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:  Helvetica;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.homepage .homepage_container .emoji_wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage .homepage_container .emoji_wrap .emoji_card{
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    
+    
+}
+.homepage .homepage_container .emoji_wrap .emoji_card .image{
+   height: 70%;
+    
+}
+
+.homepage .homepage_container .emoji_wrap .emoji_card .image img{
+    height: 100%;
+    width: 100%;
+  
+}
+
+.homepage .homepage_container .emoji_wrap .caption_container div:first-child{
+        font-size: 20px;
+        font-weight: 700;
+}
+.homepage .homepage_container .emoji_wrap .caption_container div:last-child{
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.homepage .homepage_container div{
+    text-align: center;
+}
+.homepage .homepage_container .button {
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 13px 26px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border-radius: 50px;
+    padding: 13px 26px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  .button1:hover {
+    background-color: yellow;
+    color: white;
+    
+  }
+/*  ======================inside box II =============================================== */
+
+.box_two{
+    height: 40%;
+    width: 100%;
+    background-color: white; 
+    display: flex;
+}
+
+.box_two .content-box{
+    width: 90%;
+    margin: auto;
+}
+
+.box_two .content-box .box-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box_two .content-box .box-wrap .two_child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_two .content-box .box-wrap .two_child .language div{
+    padding-bottom: 5px;
+}
+.box_two .content-box .box-wrap  ul li:first-child{
+    font-weight: bold;
+    color: black;
+}
+.box_two .content-box .box-wrap  ul li:not(first-child){
+    color:gray;
+}
+
+.box_two .content-box .box-wrap li{
+    padding: 5px;
+}
+
+
+/* ========================footer ========================== */
+
+.footer{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.footer .inside_footer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    justify-content: flex-start;
+   
+}
+
+.footer .inside_footer div:first-child{
+    margin: 10px;
+} 
+
+.footer .inside_footer div:last-child{
+    margin: 10px;
+} 
